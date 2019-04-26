@@ -15,7 +15,7 @@ describe App do
       expect(page).to have_field(:sg)
       expect(page).to have_field(:sf)
       expect(page).to have_field(:pf)
-      expect(page).to have_field(:c)
+      expect(page).to have_field(:center)
     end
   end
 
