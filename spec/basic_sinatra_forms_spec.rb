@@ -74,7 +74,7 @@ describe App do
     it "displays the center's name in the browser" do
       visit '/newteam'
 
-      fill_in(:c, :with => "Avi")
+      fill_in(:center, :with => "Avi")
       click_button "Submit"
 
       expect(page).to have_text("Center: Avi")
